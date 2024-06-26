@@ -33,12 +33,6 @@ h1 {
   justify-content: center;
 }
 
-/* Estilo para el logo */
-.logo {
-  width: 100vw;
-  background-color: azure;
-}
-
 
 /* Estilo para el contenedor de la calculadora */
 .contenedor-calculadora {

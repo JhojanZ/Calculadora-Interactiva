@@ -16,6 +16,7 @@
     text-align: center;
 }
 
+/* Activar cuando el cursor pase por el boton */
 .boton-clear:hover {
     background-color: blueviolet;
 }

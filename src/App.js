@@ -4,6 +4,7 @@ import Resultado from './componentes/resultado'; // Importa el componente Result
 import BotonClear from './componentes/clear'; // Importa el componente BotonClear.
 import { useState } from 'react'; // Importa el hook useState de React.
 import { evaluate } from 'mathjs'; // Importa la función evaluate de mathjs para evaluar expresiones matemáticas.
+import cube from './Imagenes/logo192.png';
 
 function App() {
   // Define el estado 'input' y la función para actualizarlo 'setInput'.
@@ -31,9 +32,7 @@ function App() {
   // Renderiza la interfaz de la calculadora.
   return (
     <div className="App">
-      <div className='logo'>
-        no
-      </div>
+      
       <div className='contenedor-calculadora'>
         <Resultado input={input} /> {/* Muestra el resultado actual. */}
         
