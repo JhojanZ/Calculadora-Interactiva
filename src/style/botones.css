@@ -1,0 +1,22 @@
+button {
+    width: 80%;
+    height: 80%;
+    border-radius: 30px;
+    background-color: #141d22;
+    cursor: pointer;
+    color: white;
+}
+ 
+/* Solo afecta a las operacion con simbolo, no numeros */
+button ~ .operador {
+    background-color: #374955;
+}
+
+button:nth-child(14) {
+    background-color: #494263;
+}
+
+/* Activar cuando el cursor pase por el boton */
+button:hover{
+    background-color: orange;
+}
